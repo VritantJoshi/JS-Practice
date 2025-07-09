@@ -60,3 +60,36 @@ i=1;
 // i++
 
 // }while (i<=10);
+
+
+//----------------STRING------------//
+
+ let op1 = "Vritant";
+ let op2 = "Joshi";
+
+// let ans = ` ${op1} ${op2}`;
+// console.log(ans);
+
+// let l1 = op1.length;
+// console.log(l1);
+
+// console.log(op1.toUpperCase());
+// console.log(op2.toLowerCase());
+
+
+
+// let merge = op1 + op2;
+// console.log(merge);
+
+
+
+let str = "Vishu";
+
+console.log(str.substring(2));  //0 indexing gives sub-string from given index 
+
+console.log(str.substring(2,4));    //0 indexing gives sub-string from given index, first index is starting index which is included and second index is ending index which is excluded.
+
+let sentence = "Hello everyone How are you";
+let words = sentence.split(" ");
+
+console.log(words);
