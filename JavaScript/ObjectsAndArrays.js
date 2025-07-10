@@ -21,7 +21,7 @@
 let arr = [1,2,3,4,5];
 console.log(arr);
 
-// let brr = new Array(1, "Vritant", true);
+let brr = new Array(1, "Vritant", true);
 // console.log(brr);
 
 // console.log(typeof(arr));
@@ -61,7 +61,53 @@ console.log(arr);
 // })
 // console.log(ans);
 
-let ans = arr.map((number) =>{      //used to apply any given function logic to all elements of the array.
-    return number+1;
+// let ans = arr.map((number) =>{      //used to apply any given function logic to all elements of the array.
+//     return number+1;
+// })
+// console.log(ans);
+
+
+// let evenArray = arr.filter((number)=>{      //used to filter elements of the array based on the condition of the given function.
+//     // if(number%2==0){
+//     //     return true;
+//     // }
+//     // else{
+//     //     return false;
+//     // }
+//     return number%2==0;
+// })
+
+// console.log(evenArray);
+
+// let stringArray = brr.filter((value) =>{
+//     // if(typeof(value) === 'string'){  //both work
+//     if(typeof(value) == 'string'){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// })
+
+// console.log(stringArray);
+
+
+// let ans1 = arr.reduce((acc,curr)=>{                
+//     return acc + curr;
+// },0);   //accumulator(acc) initialized as 0 so current(curr) will be arr[0] at start. 
+
+
+// console.log(ans1);
+
+
+// let arr1 =  [9,12,1,4,8];
+// arr1.sort();
+// console.log(arr1);
+
+// console.log(arr.indexOf(8));
+
+let arr2 = [10,20,30];
+
+arr2.forEach((value, index)=>{
+    console.log(`Number ${value} index ${index}`);
 })
-console.log(ans);
