@@ -33,10 +33,32 @@ console.log(age);   //25(Normal execution)
 
 
 
+// Why functions are called first class citizens in JS?
 
-// Function Call Stack
+// Since functions can be used to many tasks in JS like:-
+/**\
+ * assign to a variable.
+ * as argument.
+ * return function
+ * use function in DSA.
+ * as property in object.
+ */
+// They are called first class citizrns in JS.
+
+function greetMe(greetings, fullName){      //passing Function As Argument.
+    console.log(`Hello ${fullName}`);
+    greetings();
+    
+}
 
 
+let greetings = function() {    //Assigning Function to a variable.
+    console.log("Greetings");
+}
+
+greetings();
+ 
+greetMe(greetings, "Vritant Joshi");
 
 
 
