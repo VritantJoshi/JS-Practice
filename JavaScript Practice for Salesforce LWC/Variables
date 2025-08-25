@@ -1,11 +1,18 @@
-$myName;
+/*$myName;
 _firstKeyword;
 opportunityName;
-recordId;  recordID;    
+recordId;  recordID;*/
+
 //JS is case sensitive unlike Apex meaning here these 2 are 2 different variables but in Apex it would've only been one.
 
-myID = 2312;
+/*myID = 2312;
 myLastName = 'Joshi';
 adultOrNot = true/false;
 carInfo = {key, value};
-listOfBooks = ['Harry Potter', '5 AM Club', 'Rich Dad Poor Dad', 'ETC'];
+listOfBooks = ['Harry Potter', '5 AM Club', 'Rich Dad Poor Dad', 'ETC'];*/
+
+// with this, we can see that variables can store no.s, Strings, boolean values along with objects and arrays, but they've to be 
+//declared using keywords like let, var & const.
+
+let adultOrNot = false;
+console.log(adultOrNot);
