@@ -1,0 +1,5 @@
+$myName;
+_firstKeyword;
+opportunityName;
+recordId;  recordID;    
+//JS is case sensitive unlike Apex meaning here these 2 are 2 different variables but in Apex it would've only been one.
