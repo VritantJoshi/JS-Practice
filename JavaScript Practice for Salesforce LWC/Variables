@@ -3,3 +3,9 @@ _firstKeyword;
 opportunityName;
 recordId;  recordID;    
 //JS is case sensitive unlike Apex meaning here these 2 are 2 different variables but in Apex it would've only been one.
+
+myID = 2312;
+myLastName = 'Joshi';
+adultOrNot = true/false;
+carInfo = {key, value};
+listOfBooks = ['Harry Potter', '5 AM Club', 'Rich Dad Poor Dad', 'ETC'];
